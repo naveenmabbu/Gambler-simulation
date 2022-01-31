@@ -21,8 +21,8 @@ namespace gambler_simulation
         public static int Gamestarted()
         {
             Random random = new Random();
-            int bettingToss = random.Next(0, 2);
-            if (bettingToss == 1)
+            int BET = random.Next(0, 2);
+            if (BET == 1)
             {
                 stakeValue = STAKE + BET;
                 Console.WriteLine("Gambler Won the Game" + stakeValue);
