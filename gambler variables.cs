@@ -17,7 +17,7 @@ namespace gambler_simulation
         {
             Console.WriteLine("Welcome to GamblerSimulation program");
         }
-
+       // uc2
         public static int Gamestarted()
         {
             Random random = new Random();
